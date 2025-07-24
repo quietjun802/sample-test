@@ -1,0 +1,116 @@
+/* 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 공통 내부 여백 */
+.inner {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* 헤더 */
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #444;
+}
+
+header .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .title a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* 메뉴 */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* 메인 배경 섹션 */
+.main-background1 {
+  background: url('../img/man.jpg') center/cover no-repeat;
+  height: 100vh; /* 화면 전체를 차지하도록 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding-top: 60px; /* 🔥 헤더랑 겹치지 않게 위에 공간 줌 */
+}
+.main-background3 {
+  background: url('../img/Leicester.jpg') center/cover no-repeat;
+  height: 100vh; /* 화면 전체를 차지하도록 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding-top: 60px; /* 🔥 헤더랑 겹치지 않게 위에 공간 줌 */
+}
+
+.main-background h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.main-background p {
+  font-size: 18px;
+}
+
+/* ✅ 추가된 intro 섹션 */
+.intro {
+  padding: 100px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.intro h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* 푸터 */
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
