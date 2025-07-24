@@ -96,12 +96,16 @@ nav a:hover {
   padding-top: 60px; /* 🔥 헤더랑 겹치지 않게 위에 공간 줌 */
 }
 
-.main-background h2 {
+.main-background1 h2,
+.main-background2 h2,
+.main-background3 h2 {
   font-size: 32px;
   margin-bottom: 10px;
 }
 
-.main-background p {
+.main-background1 p,
+.main-background2 p,
+.main-background3 p {
   font-size: 18px;
 }
 
